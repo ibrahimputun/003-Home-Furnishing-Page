@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #efefef;
+}
+
+.container {
+    width: 80%;
+    background-color: #eeecec;
+    margin: 42px auto;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 50px black;
+    font-family: "Judson", serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.input-part {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 50px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px;
+    margin: 1rem;
+}
+
+select {
+    font-family: "Bellota", cursive;
+    height: 40px;
+    width: 188px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #d9d9d9;
+    padding: 5px;
+}
+
+.search-input {
+    height: 40px;
+    width: 300px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.search-input input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.search-input img {
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+}
+.support {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.support-number {
+    font-weight: 600;
+}
+
+.support-text {
+    font-size: 0.8rem;
+}
+
+.icons {
+    margin-right: 20px;
+}
+.icons img {
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 4rem;
+}
+
+.categoryButton {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #d9d9d9;
+    border-radius:5px;
+    padding:10px;
+}
+.categoryButton p{
+    font-style: italic;
+    margin-left:18px;
+}
+
+.navbar ul{
+    list-style-type:none;
+}
+
+.navbar ul li{
+    display:inline-block;
+    padding:10px;
+}
+
+.furniture{
+    margin-top: 1rem;
+    background-image:  url(./images/stock.jpg);
+    height: 320px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.essentials {
+    background-color: #d5dee5;
+    border-radius:5px;
+    box-shadow:5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.lightning {
+    background-color:#ffc868; 
+    width: 350px;
+    height: 305px;
+    border-radius:10px;
+    box-shadow:5px 5px 10px black;
+
+}
+
+.essential-text {
+    width: 227px;
+    color: #000;
+    font-family: Judson;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.lightning-text {
+    color: #000;
+    text-align: right;
+    font-family: Josefin Slab;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    padding: 1rem;
+}
+
+.lightning img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px ;
+
+}
+
+.categorySection {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: rgba(174, 160, 141, 0.33);  
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.categories {  
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    gap: 3rem;
+}
+
+.category-part {  
+    width: 242px;
+    height:245px;}
+
+.browseCategory {
+    color: #000;
+    font-family: Judson;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:0.5rem;
+
+
+}
+
+.part1, .part2, .part3, .part4 {
+    width: 242px;
+    height: 225px;
+    border-radius: 10px;
+    background: rgba(238, 236, 236, 0.86);
+
+}
+.part1 img,.part2 img, .part3 img, .part4 img {
+    width: 210px;
+    height:180px;
+    margin-left: 1rem;
+    margin-top: 0.5;
+    border-radius: 10px;
+
+}
+
+.category p {
+    color: #000;
+    font-family: Josefin Slab;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.5rem;
+}
+
+
+.browseProduct {
+    color: #000;
+    font-family: Judson;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.5rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;       
+    background: #D9D9D9;
+}  
+
+.product img {
+    width: 317px;
+    height: 190px;
+    border-radius: 10px;
+    background: lightgray;
+    
+    margin-top: 0.5rem;
+    margin-bottom: 0.5;
+    padding: 1rem;
+}
+
+.product p {
+    text-align: center;
+}
+
+.contact {
+    border: 1px solid #EEECEC;
+    background: rgba(174, 160, 141, 0.33);
+}
+
+
+.expert {
+    display: inline-flex;
+    padding: 37px 0px 17px 35px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.lookForExpert {
+    color: #000;
+    font-family: Bellota;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+.lookForExpert span {
+    color: #F37705;
+    font-family: Bellota;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.leaveInfo  {
+    color: #000;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aea08d;
+    padding: 3rem;
+    font-family: "Bellota", cursive;
+    font-weight: bold;
+    line-height: 2rem;
+    padding: 3rem;
+}    
+
+.expert {
+    display: block;
+}
+
+.leaveInfo {
+    color: #000;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+}
+.formSection {
+  margin-left: 20rem;
+  color:black;
+}
+
+.formSection input {
+    color:red;
+    background-color: #aea08d;
+}
+     
+/* .text{
+  display: block;
+} */
+
+
+label {
+  cursor: default;
+}
+
+button {
+    font-family:Judson;
+    font-size: 16px;
+    background-color:#aea08d ;  
+   
+}
+    
+.footer{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    color: #000;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.polic {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: right;
+    margin-right: 3rem;       
+}
+
+a {
+  color: #000;
+}
